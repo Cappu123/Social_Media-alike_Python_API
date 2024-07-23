@@ -1,3 +1,4 @@
+"""importing all the necessary modules and libraries"""
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional
@@ -25,6 +26,7 @@ class PostCreate(PostBase):
 
 
 class UserOut(BaseModel):
+   """schema for user-create response"""
    id: int
    email: EmailStr
    created_at: datetime
@@ -36,7 +38,7 @@ class UserOut(BaseModel):
 
 
 class PostResponse(PostBase):
-   """schema for the Response"""
+   """schema for the post-create Response"""
    id: int
    created_at: datetime
    owner_id: int
@@ -49,6 +51,7 @@ class PostResponse(PostBase):
 
 
 class postOut(BaseModel):
+   """schema for post"""
    Post: PostResponse
    votes: int
 
@@ -66,6 +69,7 @@ class UserCreate(BaseModel):
 
 
 class UserLogin(BaseModel):
+   """login schema"""
    email: EmailStr
    password: str
 
