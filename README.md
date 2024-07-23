@@ -6,6 +6,8 @@ This project was driven by my passion for backend engineering, understanding and
 
 ## [Navigate to the Project Blog post](https://medium.com/@cappyalemayehu12/portfolio-project-blog-post-fbcf51b669c3)
 
+## [Deployed Project](https://cappu.tech/docs)
+
 ## Project Name: [Social_Media-alike_Python_API](https://github.com/Cappu123/Social_Media-alike_Python_API)
 
 ## Introduction:
