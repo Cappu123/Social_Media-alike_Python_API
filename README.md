@@ -1,3 +1,47 @@
-'This is a fully featured social media backend API made with Python, Postgresql and by using FASTAPI'</br></br>
+<em>This is a fully featured social media backend API made with Python, Postgresql and by using FASTAPI</em></br></br>
 
-# [Navigate to the landing page](http://52.91.124.22)
+## [Navigate to the landing page](http://52.91.124.22)
+
+## Project Name: [Social_Media-alike_Python_API](https://github.com/Cappu123/Social_Media-alike_Python_API)
+
+## Introduction:
+
+The primary goal of this project is to create a flexible and secure backend infrastructure that can power a social media platform. The API encompasses the following key functionalities.
+
+#### User Registration and Authentication
+
+#### User Account Management
+
+#### Perform CRUD operations
+
+#### Interact with posts through Liking/Un-liking
+
+## Installation
+
+Clone this repo using the command:
+`git clone https://github.com/Cappu123/Social_Media-alike_Python_API.git`
+
+Change to the project directory
+`cd Social_Media-alike_Python_API`
+
+Install FastAPI with all its dependencies using:
+`pip install fastai[all]`
+
+Run it on your local computer using:
+`uvicorn main:app --reload`
+
+Try it out using the FastAPI interactive documentation
+on your local computer:
+`http://127.0.0.1:8000/docs`
+
+Setup environment variables to the database(Use Postgresql):
+`DATABASE_HOSTNAME = localhost`
+`DATABASE_PORT = 5432`
+`DATABASE_PASSWORD = passward_that_you_set`
+`DATABASE_NAME = name_of_database`
+`DATABASE_USERNAME = User_name`
+`SECRET_KEY = 3495u04u5y4u9jf94r0itrjktrueur0etirjt`
+`ALGORITHM = HS256`
+`ACCESS_TOKEN_EXPIRE_MINUTES = 60(base)`
+
+You can use your own SECRETE_KEY,, This is just for sample
